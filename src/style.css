@@ -1,0 +1,32 @@
+.clock{
+    align-self: center;
+    display: grid;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 1000px;
+    height: 300px;
+    border: 2cm;
+    border-block-color: black;
+}
+h1{
+    text-align: center;
+    font-family: luminari, cursive;
+    font-size: 7em;
+    text-decoration-color: midnightblue;
+
+}
+.timer{
+    text-align: center;
+    background-color: bisque;
+    font-family: "Copperplate Gothic Bold", cursive;
+    font-size: 8em;
+    padding-top: 0.5em;
+    box-shadow: 10px 10px 5px grey;
+}
+
+body{
+    background-image: url(./images/RetroMicro2.PNG);
+
+}
